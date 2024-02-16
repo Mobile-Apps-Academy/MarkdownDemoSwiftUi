@@ -94,14 +94,11 @@ A demo of markdown text, Developed using SwiftUI.
 struct MarkdownDemo: View {
     
     let markdownText: String = 
-"""
+  """
 **Bold**
 *Italic*
 ~~Strikethrough~~
 1. Ordered list
-```
-Code -> let text: String
-```
 [Link](www.google.com)
 """
 /// This is a markdown text
